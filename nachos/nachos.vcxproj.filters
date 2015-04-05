@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\bin\coff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\bin\encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\bin\instr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\bin\int.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\bin\noff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\filesys\directory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\filesys\filehdr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\filesys\filesys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\filesys\openfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\filesys\synchdisk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\console.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\disk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\interrupt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\machine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\mipssim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\network.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\stats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\sysdep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine\translate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\network\post.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\bool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\copyright.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\scheduler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\stdarg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\switch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\synch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\synchlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\system.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\threads\utility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\userprog\addrspace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\userprog\bitmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\userprog\syscall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nachos.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bin\coff2flat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bin\coff2noff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bin\d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bin\disasm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bin\execute.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bin\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bin\opstrings.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bin\out.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bin\system.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\filesys\directory.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\filesys\filehdr.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\filesys\filesys.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\filesys\fstest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\filesys\openfile.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\filesys\synchdisk.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\console.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\disk.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\interrupt.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\machine.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\mipssim.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\network.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\stats.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\sysdep.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\timer.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine\translate.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\network\nettest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\network\post.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\test\halt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\test\matmult.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\test\shell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\test\sort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\test\start.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\threads\list.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\threads\main.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\threads\scheduler.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\threads\synch.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\threads\synchlist.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\threads\system.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\threads\thread.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\threads\threadtest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\threads\utility.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\userprog\addrspace.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\userprog\bitmap.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\userprog\exception.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\userprog\progtest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
